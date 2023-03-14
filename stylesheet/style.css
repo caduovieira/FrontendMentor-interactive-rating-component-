@@ -102,6 +102,53 @@ body main input {
   font-weight: 700;
   letter-spacing: 2px;
 }
+@media only screen and (min-width: 600px) {
+  body main {
+    height: 416px;
+    width: 412px;
+    padding: 32px;
+    border-radius: 35px;
+  }
+  body main #star-container {
+    height: 48px;
+    width: 48px;
+  }
+  body main #star-container img {
+    width: 17px;
+  }
+  body main h1 {
+    font-size: 28px;
+    transform: translateY(3px);
+  }
+  body main p {
+    font-size: 15px;
+    transform: translateY(-10px);
+  }
+  body main #rating div {
+    height: 50px;
+    width: 50px;
+    transform: translateY(-7px);
+    transition: background-color 0.2s, color 0.2s;
+  }
+  body main #rating div:hover {
+    background-color: hsl(217, 12%, 63%);
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+  }
+  body main #rating div span {
+    font-size: 16px;
+  }
+  body main input {
+    font-size: 15px;
+    padding-top: 5px;
+    transition: background-color 0.2s, color 0.2s;
+  }
+  body main input:hover {
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(25, 97%, 53%);
+    cursor: pointer;
+  }
+}
 body #thank-you {
   height: 100%;
   display: none;
@@ -131,6 +178,27 @@ body #thank-you p {
   text-align: center;
   transform: translateY(-6px);
   line-height: 22px;
+}
+@media only screen and (min-width: 600px) {
+  body #thank-you img {
+    width: 162px;
+    margin-top: 14px;
+    margin-bottom: 15px;
+  }
+  body #thank-you #selection {
+    font-size: 15.4px;
+    padding: 5px 20px 3px 20px;
+    margin-bottom: 0;
+    transform: translateY(-7px);
+  }
+  body #thank-you h1 {
+    transform: translateY(0);
+  }
+  body #thank-you p {
+    font-size: 15.3px;
+    transform: translateY(-16px);
+    line-height: 23px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
