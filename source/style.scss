@@ -259,6 +259,22 @@ body {
         }
     }
 
+    footer {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        padding: 2px;
+        text-align: center;
+        font-size: 12px;
+        color: $white;
+        background-image: linear-gradient(to right, $darkBlue, $mediumDarkBlue);
+        letter-spacing: 0.5px;
+    
+        a {
+            color: $orange;
+            text-decoration: none;
+        }
+    }
 }
 
 
